@@ -1,4 +1,0 @@
-Changelog 0.2.1
-    -Added a Changelog
-    -Added game states
-    -Fixed a bug where the ball changed direction when spacebar was pressed after serving 
