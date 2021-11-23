@@ -9,8 +9,6 @@ var line4;
 var line5;
 var line6;
 var gameState = 0;
-var pointsPlayer1 = 0;
-var pointsPlayer2 = 0;
 function setup() {
   createCanvas(1366,663);
   line1 = createSprite(683,331.5,5,663);
@@ -54,7 +52,7 @@ function draw()
     if(gameState===0){
       ball.velocityX=12;
       ball.velocityY=10;
-      gameState = 1
+      gameState = 1;
     }
       
   }
@@ -63,8 +61,7 @@ function draw()
     ball.y=331.5;
     ball.velocityX=0;
     ball.velocityY=0;
-    gameState=0
-    pointsPlayer2=pointsPlayer2+1;
+    gameState=0;
   }
   if (ball.isTouching(line6)){
     ball.x=683;
@@ -72,12 +69,9 @@ function draw()
     ball.velocityY=0;
     ball.velocityX=0;
     gameState=0;
-    pointsPlayer1=pointsPlayer1+1;
   }
   ball.bounceOff(line3);
   ball.bounceOff(line4);
   ball.bounceOff(racketPlayer1);
   ball.bounceOff(racketPlayer2);
 }
-text(pointsPlayer1,673,1325);
-text(pointsPlayer2,693,1325);
