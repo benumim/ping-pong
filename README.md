@@ -1,2 +1,2 @@
 # ping-pong
-This is a game I've been working on which consists on a 2d ping pong game. It's still in development, so if you have any suggestions or found a bug, open an issue or a pull request.
+Este é um jogo em que estou trabalhando que consiste em um jogo de pingue-pongue 2D. Ele ainda está em desenvolvimento, então se você tiver alguma sugestão ou encontrar um bug, abra um problema ou uma solicitação de pull.
