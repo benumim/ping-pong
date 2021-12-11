@@ -22,12 +22,12 @@ var pointsPlayer1 = 0;
 var pointsPlayer2 = 0;
 
 function preload(){
-  red_racket = loadImage("assets/red_racket.png");
-  blue_racket = loadImage("assets/blue_racket.png");
-  ballImg = loadImage("assets/tennisball.png");
+  red_racket = loadImage("red_racket.png");
+  blue_racket = loadImage("blue_racket.png");
+  ballImg = loadImage("tennisball.png");
 
-  hitSound = loadSound("assets/hit.mp3");
-  scoreSound = loadSound("assets/score.mp3");
+  hitSound = loadSound("hit.mp3");
+  scoreSound = loadSound("score.mp3");
 }
 
 function setup() {
